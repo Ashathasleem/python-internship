@@ -1,0 +1,44 @@
+#455.Lowest common ancestor of binary search 
+#455.Assign cookies
+#121.Best time to buy and sell stock
+
+
+ #Security key:
+# n=int(input())
+# s=str(n)
+# l=[]
+# for i in s:
+#     if i not in l:
+#         l.append(i)
+# a=len(s)
+# b=len(l)
+# c=a-b
+# print(c)
+
+#Encode as number:
+# n=22455564634
+# m=3
+# s=str(n)
+# d={}
+# for i in s:
+#     if i not in d:
+#         d[i]=1
+#     else:
+#         d[i]+=1
+# res=0
+# for i in d:
+#     if d[i]==3:
+#         res=i
+# print(res)
+
+#sum of adjcent distances:
+# arr=[10,11,7,12,14]
+# total=sum(abs(arr[i]-arr[i+1]) for i in range(len(arr)-1))
+# print(total)
+
+#or
+arr=[10,11,7,12,14]
+total=0
+for i in range(len(arr)-1):
+    total+=abs(arr[i]-arr[i+1])
+print(total)
